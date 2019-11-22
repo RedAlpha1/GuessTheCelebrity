@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="fill"
+            android:id="@+id/imageview1"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick="celebchoosen"
+            android:id="@+id/button"
+            android:tag="0">
+
+        </Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:onClick="celebchoosen"
+            android:id="@+id/button1"
+            android:tag="1">
+
+        </Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:id="@+id/button2"
+            android:onClick="celebchoosen"
+            android:tag="2">
+        </Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:onClick="celebchoosen"
+            android:id="@+id/button3"
+            android:tag="3">
+        </Button>
+
+    </GridLayout>
+</RelativeLayout>
+
